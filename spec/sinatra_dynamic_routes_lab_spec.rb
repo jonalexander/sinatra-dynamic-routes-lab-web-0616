@@ -24,7 +24,7 @@ describe App do
     end
 
     it 'renders the square of the number' do 
-      expect(last_response.body).to include("16")
+      expect(last_response.body).to include(16)
     end
   end
 
